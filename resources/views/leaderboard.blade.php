@@ -9,8 +9,6 @@
 <body>
     <div class="container mt-5">
         <h1 class="mb-4">Leaderboard</h1>
-
-        <!-- Combined Search and Filter Form -->
         <form action="{{ route('leaderboard') }}" method="GET" class="form-inline mb-4">
             <div class="form-group mr-2">
                 <input type="text" name="search" class="form-control" placeholder="Enter User ID" value="{{ request('search') }}">
